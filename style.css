@@ -1,0 +1,192 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif; 
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/*==== Header ====*/
+.header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-bottom: 500px;
+}
+
+header a {
+	color: #fff;
+}
+
+.logo {
+	margin-right: 69px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+
+	transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.menu li {
+	margin-right: 40px;
+	letter-spacing: 0.1em;
+}
+
+.tel {
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 57px;
+}
+
+.text {
+	margin-top: 216px;
+	text-transform: uppercase;
+
+}
+
+.text__ivent {
+	margin: 0;
+	color: white;
+
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1px;
+	letter-spacing: 0.1em;
+
+}
+
+.text__BurningMan {
+	margin: 0 0 37px 0;
+	color: white;
+
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 147px;
+	letter-spacing: 0.02em;
+	
+}
+
+.btn {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 0.1em;
+	width: 191.48px;
+
+	padding: 18px 23px;
+
+	text-transform: uppercase;
+	text-decoration: none;
+
+	text-align: center;
+
+	border: 1px solid #fff;
+
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #000;
+}
+
+/*==== Section ====*/
+section {
+	padding-top: 113px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 58px;
+}
+
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.62em;
+	text-align: justify;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.desc-left, .desc-reght {
+	margin-top: 19px;
+	width: 564px;
+}
+
+.gallery {
+	justify-content: space-between;
+	margin-top: 67px;
+	display: flex;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+
+/*==== Footer ====*/
+footer {
+	margin-top: 114px;
+	margin-bottom: 80px;
+}
+
+.footer-text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+
+	display: flex;
+}
+
+.footer-text p {
+	margin: 0 55px 0 0;
+}
